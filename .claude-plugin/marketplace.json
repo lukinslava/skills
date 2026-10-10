@@ -55,6 +55,15 @@
         "./react-view-transitions",
         "./web-design-guidelines"
       ]
+    },
+    {
+      "name": "taste-skill",
+      "description": "design-taste-frontend и другие скиллы для визуального вкуса фронтенда: layout, типографика, анимации, отступы (tasteskill.dev).",
+      "homepage": "https://www.tasteskill.dev/",
+      "source": {
+        "source": "github",
+        "repo": "Leonxlnx/taste-skill"
+      }
     }
   ]
 }

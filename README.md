@@ -10,6 +10,7 @@
 | `nodumbmode` | nodumb, ask-nodumb, edge-hunt, system-feedback, changelog-discipline, nodumb-loop | [hanumatori/nodumbmode](https://github.com/hanumatori/nodumbmode) |
 | `deslop` | sasha, serega-gentle, serega-emotional | [mishanaer/deslop](https://github.com/mishanaer/deslop) |
 | `vercel-react` | vercel-react-best-practices, vercel-composition-patterns, vercel-react-view-transitions, web-design-guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (набор из [IlyaGrshin/wallet_animations](https://github.com/IlyaGrshin/wallet_animations)) |
+| `taste-skill` | design-taste-frontend, high-end-visual-design, redesign-existing-projects, minimalist-ui, industrial-brutalist-ui, image-to-code и др. (13 шт.) | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) ([tasteskill.dev](https://www.tasteskill.dev/)) |
 
 ## Подключить к проекту
 
@@ -26,6 +27,7 @@ claude plugin install brag@lukinslava-skills
 claude plugin install nodumbmode@lukinslava-skills
 claude plugin install deslop@lukinslava-skills
 claude plugin install vercel-react@lukinslava-skills
+claude plugin install taste-skill@lukinslava-skills
 ```
 
 Плагины ставятся в пользовательскую область (`~/.claude`) и работают в любом проекте.
