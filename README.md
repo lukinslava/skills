@@ -6,7 +6,7 @@
 
 | Плагин | Скиллы | Источник |
 | --- | --- | --- |
-| `lukinslava` | design-references (мои сайты с референсами), video (подгружает HyperFrames или Remotion по запросу на видео) | этот репозиторий, [`plugins/lukinslava`](plugins/lukinslava) |
+| `lukinslava` | design-references (мои сайты с референсами), video (подгружает HyperFrames или Remotion по запросу на видео), portfolio (портфолио и кейсы через Foliobin) | этот репозиторий, [`plugins/lukinslava`](plugins/lukinslava) |
 | `foliobin` | MCP-сервер [Foliobin](https://foliobin.com): поиск по портфолио дизайнеров (бета) | этот репозиторий, [`plugins/foliobin`](plugins/foliobin) |
 | `brag` | brag, brag-slim | [latent-spaces/brag](https://github.com/latent-spaces/brag) |
 | `nodumbmode` | nodumb, ask-nodumb, edge-hunt, system-feedback, changelog-discipline, nodumb-loop | [hanumatori/nodumbmode](https://github.com/hanumatori/nodumbmode) |

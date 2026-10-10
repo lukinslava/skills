@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "lukinslava",
-      "description": "Мои собственные скиллы: design-references (сайты с референсами) и video (подгружает HyperFrames или Remotion только под задачу с видео).",
+      "description": "Мои собственные скиллы: design-references (сайты с референсами), video (подгружает HyperFrames или Remotion под задачу с видео), portfolio (портфолио и кейсы через Foliobin).",
       "source": "./plugins/lukinslava"
     },
     {
