@@ -7,6 +7,14 @@
   },
   "plugins": [
     {
+      "name": "lukinslava",
+      "description": "Мои собственные скиллы: design-references (сайты с референсами).",
+      "source": "./plugins/lukinslava",
+      "skills": [
+        "./skills/design-references"
+      ]
+    },
+    {
       "name": "brag",
       "description": "Короткое промо-видео о проекте одной командой (/brag, /brag-slim).",
       "homepage": "https://github.com/latent-spaces/brag",
@@ -63,6 +71,24 @@
       "source": {
         "source": "github",
         "repo": "Leonxlnx/taste-skill"
+      }
+    },
+    {
+      "name": "hyperframes",
+      "description": "HyperFrames от HeyGen: видео и моушен-графика из HTML (GSAP, анимации, субтитры, звук, промо-ролики).",
+      "homepage": "https://hyperframes.heygen.com",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes"
+      }
+    },
+    {
+      "name": "remotion",
+      "description": "Remotion: видео на React (лучшие практики, создание, рендер, субтитры, медиа, интерактивность).",
+      "homepage": "https://www.remotion.dev/docs/ai/skills",
+      "source": {
+        "source": "github",
+        "repo": "remotion-dev/skills"
       }
     }
   ]
