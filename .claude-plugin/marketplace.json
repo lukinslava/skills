@@ -8,11 +8,8 @@
   "plugins": [
     {
       "name": "lukinslava",
-      "description": "Мои собственные скиллы: design-references (сайты с референсами).",
-      "source": "./plugins/lukinslava",
-      "skills": [
-        "./skills/design-references"
-      ]
+      "description": "Мои собственные скиллы: design-references (сайты с референсами) и video (подгружает HyperFrames или Remotion только под задачу с видео).",
+      "source": "./plugins/lukinslava"
     },
     {
       "name": "brag",
@@ -75,7 +72,7 @@
     },
     {
       "name": "hyperframes",
-      "description": "HyperFrames от HeyGen: видео и моушен-графика из HTML (GSAP, анимации, субтитры, звук, промо-ролики).",
+      "description": "HyperFrames от HeyGen: видео и моушен-графика из HTML (GSAP, анимации, субтитры, звук, промо-ролики). Тяжёлый набор: по умолчанию не включён, скилл video подгружает его по запросу.",
       "homepage": "https://hyperframes.heygen.com",
       "source": {
         "source": "github",
@@ -84,7 +81,7 @@
     },
     {
       "name": "remotion",
-      "description": "Remotion: видео на React (лучшие практики, создание, рендер, субтитры, медиа, интерактивность).",
+      "description": "Remotion: видео на React (лучшие практики, создание, рендер, субтитры, медиа, интерактивность). Тяжёлый набор: по умолчанию не включён, скилл video подгружает его по запросу.",
       "homepage": "https://www.remotion.dev/docs/ai/skills",
       "source": {
         "source": "github",

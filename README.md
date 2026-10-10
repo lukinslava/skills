@@ -6,14 +6,16 @@
 
 | Плагин | Скиллы | Источник |
 | --- | --- | --- |
-| `lukinslava` | design-references (мои сайты с референсами) | этот репозиторий, [`plugins/lukinslava`](plugins/lukinslava) |
+| `lukinslava` | design-references (мои сайты с референсами), video (подгружает HyperFrames или Remotion по запросу на видео) | этот репозиторий, [`plugins/lukinslava`](plugins/lukinslava) |
 | `brag` | brag, brag-slim | [latent-spaces/brag](https://github.com/latent-spaces/brag) |
 | `nodumbmode` | nodumb, ask-nodumb, edge-hunt, system-feedback, changelog-discipline, nodumb-loop | [hanumatori/nodumbmode](https://github.com/hanumatori/nodumbmode) |
 | `deslop` | sasha, serega-gentle, serega-emotional | [mishanaer/deslop](https://github.com/mishanaer/deslop) |
 | `vercel-react` | vercel-react-best-practices, vercel-composition-patterns, vercel-react-view-transitions, web-design-guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (набор из [IlyaGrshin/wallet_animations](https://github.com/IlyaGrshin/wallet_animations)) |
 | `taste-skill` | design-taste-frontend, high-end-visual-design, redesign-existing-projects, minimalist-ui, industrial-brutalist-ui, image-to-code и др. (13 шт.) | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) ([tasteskill.dev](https://www.tasteskill.dev/)) |
-| `hyperframes` | hyperframes, hyperframes-animation, motion-graphics, product-launch-video и др. (21 шт.) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) |
-| `remotion` | remotion-best-practices, remotion-create, remotion-render и др. (12 шт.) | [remotion-dev/skills](https://github.com/remotion-dev/skills) |
+| `hyperframes` | hyperframes, hyperframes-animation, motion-graphics, product-launch-video и др. (21 шт.) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes), не включён по умолчанию* |
+| `remotion` | remotion-best-practices, remotion-create, remotion-render и др. (12 шт.) | [remotion-dev/skills](https://github.com/remotion-dev/skills), не включён по умолчанию* |
+
+\* `hyperframes` и `remotion` большие: одни только описания HyperFrames занимают около 4 тыс. токенов в каждой сессии. Поэтому постоянно они не включены. Когда вы просите видео, скилл `video` скачивает нужные скиллы с GitHub и работает по ним. Для проекта, который целиком про видео, их можно включить в `.claude/settings.json` проекта.
 
 ## Подключить к проекту
 
@@ -32,8 +34,6 @@ claude plugin install nodumbmode@lukinslava-skills
 claude plugin install deslop@lukinslava-skills
 claude plugin install vercel-react@lukinslava-skills
 claude plugin install taste-skill@lukinslava-skills
-claude plugin install hyperframes@lukinslava-skills
-claude plugin install remotion@lukinslava-skills
 ```
 
 Плагины ставятся в пользовательскую область (`~/.claude`) и работают в любом проекте.
