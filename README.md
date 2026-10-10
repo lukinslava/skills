@@ -18,24 +18,40 @@
 
 \* `hyperframes` и `remotion` большие: одни только описания HyperFrames занимают около 4 тыс. токенов в каждой сессии. Поэтому постоянно они не включены. Когда вы просите видео, скилл `video` скачивает нужные скиллы с GitHub и работает по ним. Для проекта, который целиком про видео, их можно включить в `.claude/settings.json` проекта.
 
-## Подключить к проекту
+## Облачные сессии (claude.ai/code, приложение)
+
+Облачные сессии **не ставят** плагины из `.claude/settings.json` проекта, поэтому
+скиллы ставятся скриптом окружения. Значок облака над полем ввода → шестерёнка
+у окружения → **Setup script**:
+
+```bash
+#!/bin/bash
+claude plugin marketplace add lukinslava/skills || true
+for p in lukinslava foliobin brag nodumbmode deslop vercel-react taste-skill; do
+  claude plugin install "$p@lukinslava-skills" || true
+done
+```
+
+Там же в **Network access → Allowed domains** нужно разрешить сайты, которые
+используют скиллы: `foliobin.com`, `21st.dev`, `whatships.com`.
+
+Скрипт выполняется перед запуском Claude Code в каждой новой сессии окружения,
+поэтому скиллы есть во всех облачных проектах без файлов в самих проектах.
+
+## Локально: подключить к проекту
 
 Скопируйте [`examples/project-settings.json`](examples/project-settings.json)
 в проект как `.claude/settings.json` (или добавьте эти два ключа в существующий файл)
 и закоммитьте. При открытии проекта Claude Code предложит добавить маркетплейс
 и включить плагины. Лишние плагины можно убрать из `enabledPlugins`.
 
-## Подключить сразу ко всем проектам
+## Локально: подключить сразу ко всем проектам
 
 ```bash
 claude plugin marketplace add lukinslava/skills
-claude plugin install lukinslava@lukinslava-skills
-claude plugin install foliobin@lukinslava-skills
-claude plugin install brag@lukinslava-skills
-claude plugin install nodumbmode@lukinslava-skills
-claude plugin install deslop@lukinslava-skills
-claude plugin install vercel-react@lukinslava-skills
-claude plugin install taste-skill@lukinslava-skills
+for p in lukinslava foliobin brag nodumbmode deslop vercel-react taste-skill; do
+  claude plugin install "$p@lukinslava-skills"
+done
 ```
 
 Плагины ставятся в пользовательскую область (`~/.claude`) и работают в любом проекте.
