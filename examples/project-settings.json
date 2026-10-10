@@ -9,6 +9,7 @@
   },
   "enabledPlugins": {
     "lukinslava@lukinslava-skills": true,
+    "foliobin@lukinslava-skills": true,
     "brag@lukinslava-skills": true,
     "nodumbmode@lukinslava-skills": true,
     "deslop@lukinslava-skills": true,

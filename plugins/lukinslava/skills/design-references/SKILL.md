@@ -1,6 +1,6 @@
 ---
 name: design-references
-description: "Curated list of design references: where to look for UI, landing page, component and motion examples before designing or building an interface. Use when the user asks for references, inspiration, examples, or 'how others do it', or when starting a new screen, landing page, component or animation without a clear visual direction."
+description: "Curated list of design references: where to look for UI, landing page, component, motion and portfolio examples before designing or building an interface. Use when the user asks for references, inspiration, examples, or 'how others do it', or when starting a new screen, landing page, component or animation without a clear visual direction."
 ---
 
 # design-references
@@ -14,6 +14,15 @@ description: "Curated list of design references: where to look for UI, landing p
 | --- | --- | --- |
 | [whatships — design](https://whatships.com/?category=design) | Подборка в категории design | Нужны свежие примеры и идеи для дизайна |
 | [21st.dev](https://21st.dev/) | Каталог React-компонентов от сообщества (Tailwind, Radix, shadcn), а также шейдеры и градиенты | Нужен готовый компонент или пример, как его сделать красиво |
+
+## Портфолио и кейсы
+
+Для задач про портфолио, кейсы и поиск дизайнеров используй инструменты
+MCP-сервера **Foliobin** (плагин `foliobin`): поиск по 1100+ реальным портфолио
+с фильтрами по компаниям, странам и навыкам. Опирайся на найденные кейсы и
+давай ссылки на источники. Сервер в бете: есть лимиты на запросы, может
+отвечать медленно. Если инструментов Foliobin нет в сессии, скажи
+пользователю, что нужно включить плагин `foliobin@lukinslava-skills`.
 
 ## Как пользоваться
 

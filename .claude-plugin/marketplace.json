@@ -12,6 +12,12 @@
       "source": "./plugins/lukinslava"
     },
     {
+      "name": "foliobin",
+      "description": "Foliobin MCP: поиск по 1100+ портфолио дизайнеров (кейсы, структура портфолио, поиск дизайнеров). Бета: лимиты на запросы, может отвечать медленно.",
+      "homepage": "https://foliobin.com",
+      "source": "./plugins/foliobin"
+    },
+    {
       "name": "brag",
       "description": "Короткое промо-видео о проекте одной командой (/brag, /brag-slim).",
       "homepage": "https://github.com/latent-spaces/brag",
