@@ -1,0 +1,12 @@
+{
+  "extraKnownMarketplaces": {
+    "lukinslava-skills": {
+      "source": { "source": "github", "repo": "lukinslava/skills" }
+    }
+  },
+  "enabledPlugins": {
+    "brag@lukinslava-skills": true,
+    "nodumbmode@lukinslava-skills": true,
+    "deslop@lukinslava-skills": true
+  }
+}

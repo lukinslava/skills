@@ -1,0 +1,30 @@
+{
+  "name": "lukinslava-skills",
+  "description": "Набор скиллов, которые я подключаю ко всем проектам. Скиллы не копируются: каждый плагин ссылается на исходный репозиторий автора.",
+  "owner": {
+    "name": "lukinslava",
+    "url": "https://github.com/lukinslava"
+  },
+  "plugins": [
+    {
+      "name": "brag",
+      "description": "Короткое промо-видео о проекте одной командой (/brag, /brag-slim).",
+      "homepage": "https://github.com/latent-spaces/brag",
+      "source": { "source": "github", "repo": "latent-spaces/brag" }
+    },
+    {
+      "name": "nodumbmode",
+      "description": "nodumb, ask-nodumb, edge-hunt, system-feedback, changelog-discipline, nodumb-loop: скиллы против типичных ошибок агента.",
+      "homepage": "https://github.com/hanumatori/nodumbmode",
+      "source": { "source": "github", "repo": "hanumatori/nodumbmode" },
+      "skills": ["./"]
+    },
+    {
+      "name": "deslop",
+      "description": "sasha (русские тексты для интерфейсов) и serega-gentle, serega-emotional (анимации появления текста).",
+      "homepage": "https://github.com/mishanaer/deslop",
+      "source": { "source": "github", "repo": "mishanaer/deslop" },
+      "skills": ["./sasha", "./serega"]
+    }
+  ]
+}
